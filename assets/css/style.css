@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+body{
+    background-image: url(../../multimedia/fondo.jpg);
+    background-repeat: none;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    }
+/* header */
+.rounded-circle{
+    height: 45px;
+    width: 50px;
+    }
+    .logopao{
+    height: 50px;
+    width: 180px;
+    margin-bottom: 0px;
+}    
+.navbar{
+    background-color: #fbd1df;
+    border: solid rgb(0, 4, 8) 1px;
+}
+.navbar-nav{
+margin: 0 auto;
+color: black;
+font-weight: 600;
+}
+.nav-link{
+    font-family:  "Roboto Slab", serif;
+}
+.nav-item{
+    color: aliceblue;
+margin-right: 60px;
+ font-size:21px;
+}
+.nav-link:hover{
+    color: rgb(0, 255, 170);
+}
+
+/* header */
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: rgb(216, 124, 170);
+    display: flex;
+    justify-content: center; 
+}
+.titulo2{
+font-family:  "Roboto Slab", serif;
+font-size: 29px;
+margin-top: 35px;
+text-shadow: black 1px 1px 1px;
+
+}
+.titulo1{
+
+position: relative;
+top: 90px;
+color: rgb(235, 235, 235);
+text-shadow: black 2px 2px 2px;
+font-family: "Oswald", sans-serif;
+font-size:60px;
+}
+.presentacion{
+    background-image: url(../../multimedia/zorritofinal.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 230px;
+    border: solid rgb(104, 71, 29) 1px;
+}
+
+.zorro{
+height: 250px;
+width: 100%;
+}
+.imagen-productos{
+height: 280px;
+width: 310px;
+border: solid rgb(83, 49, 3) 3px;
+
+}
+.productos{
+    position: relative;
+    top: 20px;
+    justify-content: center; 
+   margin: 40px auto;
+   margin-left: 80px;
+    width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+  grid-template-rows: repeat( 2,360px);
+  gap: 60px;
+    
+    }
+.titulo2-comprar{
+font-size: 22px;
+margin-top: -0px;
+color: black;
+margin-left: 55px;
+}
+.comprar{
+    display: flex;
+justify-content: center;
+}
+button{
+position: relative;
+top: 40px;
+right: 275px;
+background-color: rgb(233, 156, 129);
+color: rgb(221, 162, 206);
+}
+button a{
+    text-decoration: none;
+    color: rgb(243, 52, 141);
+    font-size: 20px;
+font-weight: 700;
+}
+
+button a:hover{
+    color: rgb(0, 0, 0);
+}
+.titulo1-pago{
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: rgb(235, 72, 186);
+    text-shadow:  rgb(247, 247, 247) 1px 2px 2px;
+}
+.header-pago{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #fbd1df;
+position: relative;
+top: -33px;
+border: solid rgb(255, 106, 188) 2px;
+height: 120px;
+
+}
+iframe{
+    border: solid rgb(243, 34, 163) 2px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.titulo2-pago{
+    margin-top: -20px;
+    font-size: 35px;
+    text-shadow: black 2px 1px 1px;
+}
