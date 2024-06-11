@@ -365,11 +365,12 @@ visibility: hidden;
       font-weight: 700;
       text-align: center;
       margin-top: 40px;
+   margin-left: 45px;
     }
     .titulo2 {
         text-align: center;
         margin-top: 20px;
-        font-size: 32px;
+        font-size: 33px;
         margin-bottom: 50px;
       }
       .titulo1{
